@@ -1,5 +1,7 @@
 <?php
 
+namespace Marvelouce;
+
 abstract class Controller {
 	protected $data;
 	protected $template;
