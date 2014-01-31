@@ -1,6 +1,6 @@
 <?php
 
-namespace Marvelouce;
+namespace Vikekh\Marvelouce;
 
 abstract class Controller {
 	protected $data;

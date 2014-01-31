@@ -1,8 +1,6 @@
 <?php
 
-require 'src/Marvelouce/Controller.php';
-require 'src/Marvelouce/Model.php';
-require 'src/Marvelouce/Router.php';
-
+require 'vendor/autoload.php';
+use Vikekh\Marvelouce;
 $request = isset($_GET['request']) ? $_GET['request'] : null;
-new Marvelouce\Router($request);
+new Router($request);
