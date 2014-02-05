@@ -1,8 +1,7 @@
 <?php
 
-namespace Vikekh\Marvelouce;
-
 abstract class Controller {
+
 	protected $data;
 	protected $template;
 	
@@ -21,4 +20,5 @@ abstract class Controller {
 	}
 	
 	abstract public function index();
+	
 }
